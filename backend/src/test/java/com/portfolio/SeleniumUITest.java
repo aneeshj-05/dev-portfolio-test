@@ -45,6 +45,6 @@ public class SeleniumUITest {
         String pageSource = driver.getPageSource();
         
         // Check if the student's name is present in the API response
-        assertTrue(pageSource.contains("Test User"), "Student name not found in profile API!");
+        assertTrue(pageSource.contains("Aneesh Gay"), "Student name not found in profile API!");
     }
 }
